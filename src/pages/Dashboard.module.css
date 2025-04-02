@@ -1,0 +1,60 @@
+/* src/pages/Dashboard.module.css */
+
+/* Container geral, semelhante ao do Login */
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #cce6ff; /* Mesma cor de fundo do Login */
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  color: #000; /* Texto em preto */
+  
+}
+
+/* Seções internas (Realizar Reserva, Minhas Reservas Futuras) */
+section {
+  margin-bottom: 3rem;
+}
+
+/* Ajuste títulos, se quiser */
+h2 {
+  margin-bottom: 2rem;
+}
+
+/* Ajuste inputs e selects, se estiverem no Dashboard, ou deixe para o CSS do Form */
+label, select, input {
+  display: block;
+  margin: 0.5rem auto;
+  width: 100%;
+  text-align: left;
+  font: 1em sans-serif;
+}
+
+label, select, input .id{
+  width: 103%;
+}
+
+select, input {
+  padding: 0.5rem;
+  border: 1px solid #082d59;
+  border-radius: 6px;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: #082d59;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #005bb5;
+  transform: scale(1.03);
+}

@@ -1,0 +1,13 @@
+/* src/pages/Reports.module.css */
+.container {
+    max-width: 800px;
+    margin: 5rem auto;
+    padding: 1rem;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  .chartSection {
+    margin-top: 5rem;
+  }
+  

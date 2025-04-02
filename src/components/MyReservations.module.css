@@ -1,0 +1,30 @@
+.reservationItem {
+    background-color: #f0f4ff;
+    border-radius: 8px;
+    padding: 1rem 1.5rem 2rem;
+    margin: 0 auto 1rem auto; /* centraliza horizontalmente e espaça embaixo */
+    box-shadow: 0 2px 6px rgb(0, 0, 0);
+    max-width: 600px; /* limite de largura para não ficar esticado */
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  
+  .cancelButton {
+    padding: 0.45rem 1.2rem;
+    background-color: #1f2b50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    line-height: 1.2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -1px; /* leve ajuste de posicionamento */
+  }
+  

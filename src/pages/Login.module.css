@@ -1,0 +1,86 @@
+/* Container centralizado */
+.container {
+  max-width: 400px;
+  margin: 5rem auto;
+  background-color: #cce6ff; /* Azul claro */
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Título com animação de flutuação e fonte moderna */
+.loginHeader {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 1.5rem;
+  position: relative;
+  animation: float 3s ease-in-out infinite;
+  font-family: 'Roboto', sans-serif;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+/* Formulário e elementos */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  font-size: 1.1rem;
+}
+
+.button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  background-color: #082d59; /* Botão azul */
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #005bb5;
+  transform: scale(1.03);
+}
+
+/* Mensagem de erro (como notificação) */
+.errorNotification {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 1rem;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+}

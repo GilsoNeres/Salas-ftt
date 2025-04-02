@@ -1,0 +1,29 @@
+.notification {
+  position: fixed; /* Fixado em relação à viewport */
+  top: 20px;       /* Distância do topo */
+  right: 20px;     /* Distância da lateral direita */
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000; /* Garante que fique sobre outros elementos */
+}
+
+/* Tipos específicos para diferentes cores */
+.success { background-color: #4caf50; }
+.error { background-color: #f44336; }
+.info { background-color: #2196f3; }
+.warning { background-color: #ff9800; }
+
+/* Botão fechar estilizado */
+.closeButton {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 1rem;
+}

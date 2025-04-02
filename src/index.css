@@ -1,0 +1,13 @@
+/* index.css ou outro arquivo global */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #082d59; /* Cor de fundo desejada para a página inteira */
+  font-family: sans-serif;   /* Exemplo de fonte global */
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
