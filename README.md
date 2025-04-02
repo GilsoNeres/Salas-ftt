@@ -78,8 +78,7 @@ public/ – Arquivos públicos, incluindo index.html
 
 cypress/ – Testes end-to-end com Cypress
 
-1. **Clone o repositório:**
+1. **repositório:**
 
    ```bash
-   git clone https://github.com/SEU_USUARIO/uni-reservas.git
-   cd uni-reservas
+   git clone https://github.com/GilsoNeres/Salas-ftt
